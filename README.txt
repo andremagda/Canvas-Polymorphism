@@ -52,5 +52,6 @@ Compile: Shape.cpp Rhombus.cpp Canvas.cpp Quadrilateral.cpp Rectangle.cpp
 		LL_Parallelogram.cpp RL_Parallelogram.cpp Parallelogram.cpp  -o main
 Run: ./main
 --------------------
+## Sample Outputs
 
-![Canvas House](canvas_house.png)
+![Canvas Output](canvas_house.png)
