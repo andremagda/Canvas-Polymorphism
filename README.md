@@ -15,8 +15,8 @@ drawing. Here are the key goals:
 	• Calculate both geometric and screen-based area/perimeter
 	• Apply exception handling and the Rule of Five
 ---------------------
-
 ## CLASS SPECIFICATION
+
 The project is structure into multiple C++ classes:
 	1. Canvas.h and Canvas.cpp - Canvas class
 	2. Shape.h and Shape.cpp - Shape base class
@@ -31,8 +31,8 @@ The project is structure into multiple C++ classes:
 	11. RightTriangle.h, RightTriangle.cpp
 	12. A4_test_driver.cpp 
 ---------------------
-
 ## FUNCTIONALITIES
+
 1. Canvas Operations (test_Canvas()):
 	• The output produced by this function can be found in test_Canvas_Output.pdf.
 2. Shape Operations (test_Shapes()):
@@ -43,7 +43,6 @@ The project is structure into multiple C++ classes:
 	• This function creates a complex drawings by combining multiple shapes
 	• The output generated can be found in the file test_draw_house_output.pdf.
 ---------------------
-
 ## COMPILE AND RUN THE PROGRAM 
 
 C++ IDE: VS Code (on macOS)
@@ -52,6 +51,6 @@ Compile: Shape.cpp Rhombus.cpp Canvas.cpp Quadrilateral.cpp Rectangle.cpp
 		LL_Parallelogram.cpp RL_Parallelogram.cpp Parallelogram.cpp  -o main
 Run: ./main
 --------------------
-## Sample Outputs
+## SAMPLES OUTPUTS
 
-![Canvas Output](canvas_house.png)
+![Canvas Output](./canvas_house.png)
